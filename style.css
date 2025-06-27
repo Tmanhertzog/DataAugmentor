@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+     margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; 
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #50aaff;
+    color: #fff;
+}
+
+header div {
+    background-color: navy;
+    padding: 30px;
+}
+
+footer {
+    background-color: #50aaff;
+    padding-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+footer div {
+    
+    background-color: navy;
+    padding: 30px;
+}
