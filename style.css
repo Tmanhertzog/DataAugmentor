@@ -15,29 +15,46 @@ body {
 
 main {
     flex: 1; 
+    background-color: #eef7ff;
+    padding: 20px 30px
+}
+
+form p {
+    font-weight: bolder;
+    font-size: large;
+}
+
+fieldset {
+    background-color: #e0f1ff;
+}
+
+fieldset legend {
+    background-color: #eef7ff;
+    padding: 0 3px;
+    border: rgb(121, 121, 121) solid 0.25px;
 }
 
 header {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     background-color: #50aaff;
     color: #fff;
 }
 
 header div {
-    background-color: navy;
+    background-color: #363c92;
     padding: 30px;
 }
 
 footer {
     background-color: #50aaff;
-    padding-top: 10px;
+    padding-top: 5px;
     color: #fff;
     text-align: center;
 }
 
 footer div {
     
-    background-color: navy;
+    background-color: #363c92;
     padding: 30px;
 }

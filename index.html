@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>DataAugmentor</title>
 </head>
 <body>
@@ -13,7 +14,117 @@
         </div>
     </header>
     <main>
-        <p>Freaky Buttons and shiii</p>
+        <p> Project was created for the purpose of being able to quickly customize augmentations, create unique data for your task, allow for 
+            tighter control for experiments and debugging, and to understand how augmentation works.
+        </p>
+        <p>
+            Libraries like Albumentations, torchvision.transforms, and Keras ImageDataGenerator support chaining augmentations easily and are
+            recommended for many data augmentation tasks.
+        </p>
+        <br>
+        <form id="FileForm">
+            <p>File Input:</p>
+            <input type="file" id="myFile" name="filename">
+            <br><br>
+
+            <p>Number of images:</p>
+            <input type="number"
+                name="number" 
+                id="imageAmount"
+                min="1" 
+                max="100">
+            <br><br>
+
+            <p>Create images with: </p>
+            <fieldset>
+                <legend>Geometric Modifications:</legend>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox1" 
+                    value="html">
+                <label for="checkbox1">Horizontal flip</label>
+                <br>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox2" 
+                    value="css">
+                <label for="checkbox2">Vertical flip</label>
+                <br>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox3" 
+                    value="javascript">
+                <label for="checkbox3">Rotation</label>
+                <br>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox4" 
+                    value="javascript">
+                <label for="checkbox4">Cropping</label>
+                <br>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox5" 
+                    value="javascript">
+                <label for="checkbox5">Translation</label>
+                <br>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox6" 
+                    value="javascript">
+                <label for="checkbox6">Shearing</label>
+                <br>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Color Modifications:</legend>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox7" 
+                    value="html">
+                <label for="checkbox7">Brightness</label>
+                <br>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox8" 
+                    value="css">
+                <label for="checkbox8">Contrast</label>
+                <br>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox9" 
+                    value="javascript">
+                <label for="checkbox9">Saturation</label>
+                <br>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox10" 
+                    value="javascript">
+                <label for="checkbox10">Invert colors</label>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Noise Modifications:</legend>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox11" 
+                    value="html">
+                <label for="checkbox11">Gaussian noise</label>
+                <br>
+                <input type="checkbox" 
+                    name="check" 
+                    id="checkbox12" 
+                    value="css">
+                <label for="checkbox12">Salt and Pepper noise</label>
+            </fieldset>
+            <br>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+            
+        </form>
     </main>
     <footer>
         <div>
