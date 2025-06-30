@@ -19,6 +19,15 @@ main {
     padding: 20px 30px
 }
 
+.cols-parent {
+    display: flex;
+    gap: 10%;
+}
+
+.cols {
+    width: 50%;
+}
+
 form p {
     font-weight: bolder;
     font-size: large;
