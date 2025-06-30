@@ -1,6 +1,6 @@
 // Tristan Hertzog
 
-// let imageFile;
+let imageFile;
 // let imageAmount;
 // let horizontalFLip;
 // let verticalFlip;
@@ -25,3 +25,4 @@
 // });
 
 document.querySelectorAll('#FileForm input')
+document.getElementById()
