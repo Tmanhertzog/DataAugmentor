@@ -1,9 +1,8 @@
 /* =============== */
-/* Base + Reset     */
+/* Base + Reset    */
 /* =============== */
-*,
-*::before,
-*::after {
+
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -34,15 +33,14 @@ body {
   flex-direction: column;
   background: var(--bg);
   color: var(--text);
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
-               "Segoe UI Emoji";
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
 /* =============== */
-/* Header / Footer  */
+/* Header / Footer */
 /* =============== */
 header {
   text-align: center;
@@ -53,7 +51,7 @@ header {
 
 header div {
   padding: 28px 18px;
-  background: transparent; /* override your old nested block color */
+  background: transparent;
 }
 
 header h1 {
@@ -80,7 +78,7 @@ footer p {
 }
 
 /* =============== */
-/* Main layout      */
+/* Main layout     */
 /* =============== */
 main {
   flex: 1;
@@ -95,7 +93,7 @@ main > p {
 }
 
 main > br {
-  display: none; /* remove layout "break" in favor of spacing below */
+  display: none; 
 }
 
 .cols-parent {
@@ -151,7 +149,7 @@ main > br {
 }
 
 /* =============== */
-/* Form (card)      */
+/* Form (card)     */
 /* =============== */
 form {
   background: var(--surface);
@@ -168,8 +166,7 @@ form p {
   color: var(--text);
 }
 
-input[type="file"],
-input[type="number"] {
+input[type="file"], input[type="number"] {
   width: 100%;
   max-width: 520px;
   padding: 10px 12px;
@@ -185,14 +182,13 @@ input[type="file"] {
 }
 
 /* focus ring */
-input[type="file"]:focus,
-input[type="number"]:focus {
+input[type="file"]:focus, input[type="number"]:focus {
   border-color: rgba(37, 99, 235, 0.45);
   box-shadow: 0 0 0 4px var(--ring);
 }
 
 /* =============== */
-/* Fieldsets        */
+/* Fieldsets       */
 /* =============== */
 fieldset {
   margin: 12px 0 0 0;
@@ -233,7 +229,7 @@ fieldset label {
 }
 
 /* =============== */
-/* Buttons          */
+/* Buttons         */
 /* =============== */
 form > div {
   margin-top: 16px;
@@ -242,8 +238,7 @@ form > div {
   flex-wrap: wrap;
 }
 
-input[type="submit"],
-input[type="button"] {
+input[type="submit"], input[type="button"] {
   appearance: none;
   border: 1px solid rgba(37, 99, 235, 0.35);
   background: var(--brand);
@@ -284,7 +279,7 @@ input[type="button"]:focus {
 }
 
 /* =============== */
-/* Small polish     */
+/* Small polish    */
 /* =============== */
 p {
   margin: 0;
