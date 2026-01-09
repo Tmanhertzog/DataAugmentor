@@ -14,7 +14,7 @@ A Web-based image augmentation tool to apply filters and generate batches of mod
 
 ### How to run:
 
-**1.** Access the webpage\
+**1.** Access the webpage [link here](https://tmanhertzog.github.io/DataAugmentor/)\
 **2.** Select an image file (PNG, JPEG, SVG, GIF, WebP, or APNG).\
 **3.** Choose the number of images you would like to download.\
 **4.** Check the options for image modifications.\
