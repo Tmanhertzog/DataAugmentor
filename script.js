@@ -143,7 +143,7 @@ function VFlipImage(img) {
 
 function RotateImage(img) {
   if (rotation) {
-    img.set({angle: getRndInteger(0, 360)});
+    img.set({angle: getRndInteger(-45, 45)});
   }
 }
 
@@ -247,7 +247,7 @@ function makeBlue(img) {
     img.filters.push(new fabric.Image.filters.BlendColor({
       color: "rgb(0, 80, 255)",
       mode: "tint",     // "tint", "multiply", "screen"
-      alpha: getRndInteger(0, 70) * 0.01,
+      alpha: getRndInteger(0, 60) * 0.01,
     }));
 
     img.applyFilters();
