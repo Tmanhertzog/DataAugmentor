@@ -247,7 +247,7 @@ function makeBlue(img) {
     img.filters.push(new fabric.Image.filters.BlendColor({
       color: "rgb(0, 80, 255)",
       mode: "tint",     // "tint", "multiply", "screen"
-      alpha: Math.random(),
+      alpha: getRndInteger(0, 70) * 0.01,
     }));
 
     img.applyFilters();
