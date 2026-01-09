@@ -1,7 +1,7 @@
 # Data Augmentor
 ### Created by: Tristan Hertzog
 
-Demo video: []()
+Demo video: [https://youtu.be/5kq_bNoCpoE](https://youtu.be/5kq_bNoCpoE)
 
 A Web-based image augmentation tool to apply filters and generate batches of modified photos for download, a useful tool for data augmentation in image classification.
 
