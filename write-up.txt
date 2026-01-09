@@ -1,1 +1,7 @@
+2026, Tristan Hertzog
 
+  A large motivation for this project was creating deep neural networks with limited data, especially data I struggled with finding plentiful amounts of. While there are other libraries like Albumentations, torchvision.transforms, and Keras ImageDataGenerator that you can use easily for data collection, I wanted to create my own data augmentor that had an easy to use user interface and could do simple image modifications. 
+
+  The approach for this project was to create a simple front end using HTML and CSS for a web app and use JavaScript for all the image modifications through an imported library Fabric.js. For the image modification I create a fabric canvas and fit the image to the canvas. Afterwards depending on the inputs for the modification, the images are modified using the fabric.js filters and canvas.set methods. For the noise functions there are no built-in functions for the modification, so using generative AI created a guassian and salt and pepper noise functions to apply to the canvas.
+
+  As this is project is for collecting bulk creations of images with filters for machine learning data, a large limitation of the program is the limited optionality for parameters when selecting modifications. Future work for this project would include adding optionality for the filters and fine tuning the image modification functions to better fit the purpose of training data.
